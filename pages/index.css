@@ -5,6 +5,8 @@
   font-family: "Noto Serif", Times, sans-serif;
   font-size: 16px;
   line-height: 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .header {
