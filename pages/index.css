@@ -32,6 +32,7 @@
 .nav__logo {
   height: 39px;
   width: 105px;
+  margin-bottom: 183px;
 }
 
 .nav__links {
@@ -55,23 +56,25 @@
 .header__title {
   display: flex;
   flex-direction: column;
-  font-family: "Noto Serif";
-  font-style: italic;
+  position: relative;
+  font-family: "Inter", Arial, Sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 58px;
   line-height: 72px;
-  color: #2f80ed;
-  position: relative;
+  letter-spacing: -1px;
+  max-width: 709px;
+  left: 80px;
 }
 
-.header__title::after {
-  content: "en Triple Peaks";
-  color: black;
-  font-family: "Inter";
+.header__span-accent {
+  display: flex;
+  font-family: "Noto Serif", Times, sans-serif;
+  font-style: italic;
+  font-weight: normal;
   font-size: 58px;
   line-height: 72px;
-  letter-spacing: 1px;
-  max-width: 709px;
+  color: #2f80ed;
   left: 80px;
 }
 
