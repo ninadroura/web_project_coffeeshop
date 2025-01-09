@@ -137,16 +137,6 @@
   color: #ffffff;
 }
 
-.recipes__title {
-  font-family: "Inter";
-  font-weight: 500;
-  font-size: 44px;
-  line-height: 52px;
-  max-width: 580px;
-  margin-left: 80px;
-  margin-top: 100px;
-}
-
 .recipes__subtitle {
   font-family: "Noto Serif";
   font-size: 20px;
@@ -201,14 +191,16 @@
   background-size: cover;
 }
 .reservation__title {
-  margin-top: 100px;
+  margin-top: 0;
   margin-left: auto;
   margin-right: auto;
-  font-family: Inter;
-  font-style: normal;
+  margin-bottom: 80;
+  padding-top: 100px;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  font-family: Inter;
+  font-style: normal;
 }
 
 .reservation__form {
